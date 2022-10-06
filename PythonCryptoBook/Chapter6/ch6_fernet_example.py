@@ -1,0 +1,10 @@
+from cryptography.fernet import Fernet
+key = Fernet.generate_key()
+f = Fernet(key)
+print ("The key is %s", f)
+print ()
+ciphertext = f.encrypt(b"This is a secret message.")
+print (ciphertext)
+print ()
+plaintext = f.decrypt(ciphertext)
+print (plaintext)

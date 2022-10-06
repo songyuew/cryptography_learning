@@ -1,0 +1,2 @@
+The code in the book has been edited with a X.509 and not x509 as expected.
+The code in ch2_revo.py has an extra break character in the book.
