@@ -27,6 +27,8 @@ for r in range(key_size):
     plaintext.append(ascii[r*rowLen:(r+1)*rowLen])
 
 plaintext_matrix = npy.array(plaintext)
+print("--------------------PLAINTEXT-----------------")
+print(plaintext_matrix)
 
 # encrypt to cipher matrix
 cipher = enc_matrix @ plaintext_matrix
