@@ -1,4 +1,4 @@
-# Note: this will only generate pseudoprime
+# Note: this will only generate pseudoprime (there might be false positive)
 
 """
 Fermat's little theorem:
