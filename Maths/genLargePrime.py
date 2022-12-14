@@ -2,7 +2,7 @@ from secrets import randbits
 from MillerRabin import isPrime
 
 # number of iterations (different random a tried) for Miller-Rabin primality test
-# high accuracy is required for crptography use!
+# high accuracy is required for cryptography use!
 k = 128
 
 def genPrimeCandidate(length):
