@@ -3,7 +3,7 @@ from MillerRabin import isPrime
 
 # number of iterations (different random a tried) for Miller-Rabin primality test
 # high accuracy is required for cryptography use!
-k = 128
+k = 256
 
 def genPrimeCandidate(length):
     p = randbits(length)
